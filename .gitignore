@@ -1,0 +1,51 @@
+﻿# =========================
+# Специфика нашего проекта (MVP)
+# =========================
+# Игнорируем папку с тяжелой языковой моделью Vosk
+model/
+vosk-model-*/
+
+uploads/
+
+*.db
+*.sqlite3
+
+# Временный файл записи от C#-клиента
+current_shift_record.wav
+
+# =========================
+# Python / FastAPI
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Виртуальные окружения Python
+venv/
+.venv/
+env/
+.env
+
+# =========================
+# C# / .NET / NAudio
+# =========================
+[Bb]in/
+[Oo]bj/
+
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+
+.idea/
+
+.vscode/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
